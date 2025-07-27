@@ -15,9 +15,9 @@ const NavBar = () => {
 
   return (
     <header className="nav-container">
-      <nav className="nav-bar container flex justify-between items-center md:p-[2.2rem_3rem] 2xl:p-[2rem_0]">
+      <nav className="nav-bar container flex justify-between items-center md:p-[2.2rem_3rem] xl:p-[2.4rem_15rem] 2xl:p-[2rem_0]">
         <NavLink
-          to="/home"
+          to="/about"
           className="nav-logo md:text-[2.3rem] lg:text-[2.4rem] text-[2.5rem]"
         >
           <span>
