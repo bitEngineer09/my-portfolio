@@ -9,11 +9,12 @@ const Projects = () => {
         className="
                 container
                 pt-[4rem] xs:px-[2rem] md:px-[4rem] xl:px-[14rem] 2xl:px-0
+                pb-[5rem]
                 "
       >
         <h3
           className="
-                text-[3rem] xs:text-[3.3rem] sm:text-[3.8rem] lg:text-[4.2rem] 2xl:text-[4.6rem]
+                text-[2.8rem] xs:text-[3.3rem] sm:text-[3.8rem] lg:text-[4.2rem] 2xl:text-[4.6rem]
                 font-semibold
                 underline underline-offset-12
                 [text-decoration-color:#7F22FE] text-center
@@ -39,7 +40,7 @@ const Projects = () => {
                   lg:gap-y-[4rem] xl:gap-y-[5rem] 2xl:gap-y-[6rem]
                   ">
           {ProjectsData.map((ProjectData) => {
-            return <ProjectContent ProjectData={ProjectData} />;
+            return <ProjectContent key={ProjectData.id} ProjectData={ProjectData} />;
           })}
         </div>
       </div>

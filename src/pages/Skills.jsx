@@ -5,7 +5,7 @@ const Skills = () => {
   return (
       <div className="
                 container
-                px-[4rem] xs:px-[3rem] md:px-[4rem] xl:px-[14rem] 2xl:px-0
+                px-[0.4rem] xs:px-[3rem] md:px-[4rem] xl:px-[14rem] 2xl:px-0
                 2xl:pt-[3rem]
                 ">
         <h3 className="
@@ -25,7 +25,7 @@ const Skills = () => {
           Showcasing my expertise in crafting intuitive, responsive, and
           visually engaging web experiences.
         </p>
-        <div className="LanguagesCard">
+        <div className="LanguagesCard ">
           <Card />
         </div>
       </div>

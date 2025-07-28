@@ -16,6 +16,10 @@ const App = () => {
       errorElement: <ErrorPages />,
       children: [
         {
+          path: "/",
+          element: <About />,
+        },
+        {
           path: "/about",
           element: <About />,
         },
@@ -28,8 +32,8 @@ const App = () => {
           element: <Projects />,
         },
         {
-          path: "/educatio",
-          element: <Education />,
+          path: "/education",
+          element: <ErrorPages />,
         },
       ],
     },

@@ -97,11 +97,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="xs:mt-[2rem] sm:mt-[5rem] 2xl:mt-[7rem]">
+      <div className="mt-[4rem] xs:mt-[2rem] sm:mt-[5rem] 2xl:mt-[7rem]">
         <Skills/>
       </div>
 
-      <div className="xs:mt-[6rem] sm:mt-[10rem] 2xl:mt-[7rem]">
+      <div className="mt-[5rem] xs:mt-[6rem] sm:mt-[10rem] 2xl:mt-[7rem]">
         <Projects />
       </div>
     </>
