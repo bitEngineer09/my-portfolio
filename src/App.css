@@ -5,9 +5,12 @@
     --breakpoint-xs: 480px;
     --breakpoint-sm: 640px;
     --breakpoint-md: 768px;
-
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
 
     --color-main : #060010;
+    --color-primary: #7F22FE;
 }
 
 html,body {
@@ -82,6 +85,58 @@ html,body {
 
 
 
+
+/* Skills Card Start */
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+}
+
+.card__content {
+  background: #060010;
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+}
+/* Skills Card End */
+
+/*  */
+
+#bottone1 {
+ /* padding-left: 33px;
+ padding-right: 33px;
+ padding-bottom: 16px;
+ padding-top: 16px; */
+ border-radius: 9px;
+ background: #7F22FE;
+ transition: 0.4s;
+}
+
+#bottone1:hover {
+ box-shadow: 7px 5px 56px -14px #9346fe;
+}
+
+#bottone1:active {
+ transform: scale(0.97);
+ box-shadow: 7px 5px 56px -10px #8a40f1;
+}
+/*  */
+
+
+.cardsPro {
+    background: linear-gradient(45deg, rgba(41, 7, 71, 0.1));
+}
+
+.cardsPro:hover {
+    h3 {
+        color: #7F22FE;
+        transition: all 0.1s ease-in
+    }
+}
 
 
 
@@ -196,5 +251,5 @@ html,body {
         transition: all 0.1s ease-in-out;
     }
 
-}   
+} 
 

@@ -5,6 +5,7 @@ import ErrorPages from "./pages/ErrorPages";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Education from "./pages/Education";
+import Projects from "./pages/Projects";
 
 
 const App = () => {
@@ -23,7 +24,11 @@ const App = () => {
           element: <Skills />,
         },
         {
-          path: "/education",
+          path: "/projects",
+          element: <Projects />,
+        },
+        {
+          path: "/educatio",
           element: <Education />,
         },
       ],

@@ -2,6 +2,7 @@ import React from "react";
 import RotatingText from "/ReactBits/RotatingText/RotatingText";
 import ProfileCard from "/ReactBits/ProfileCard/ProfileCard";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 const About = () => {
   return (
@@ -12,7 +13,10 @@ const About = () => {
               lg:flex-row
               lg:justify-between
               items-center
-              p-[4rem] xs:p-[5rem_3rem] sm:p-[3rem] md:p-[3rem_3rem] lg:p-[7rem_3rem] xl:p-[8rem_15rem] 2xl:p-[11rem_0]
+              p-[4rem] xs:p-[5rem_3rem] sm:p-[3rem] md:p-[3rem_3rem] lg:p-[7rem_3rem] xl:p-[8rem_15rem] 
+              2xl:pt-[11rem]
+              2xl:px-0
+              2xl:pb-0
               gap-[5rem] xs:gap-[3.6rem] sm:gap-[4rem] md:gap-[6rem] lg:gap-[auto]
                       ">
         <div className="
@@ -93,8 +97,12 @@ const About = () => {
         </div>
       </div>
 
-      <div>
+      <div className="xs:mt-[2rem] sm:mt-[5rem] 2xl:mt-[7rem]">
         <Skills/>
+      </div>
+
+      <div className="xs:mt-[6rem] sm:mt-[10rem] 2xl:mt-[7rem]">
+        <Projects />
       </div>
     </>
   );

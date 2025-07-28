@@ -30,15 +30,15 @@ const NavBar = () => {
             isOpen ? "nav-link active" : "nav-link"
           }`}
         >
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/skills">Skills</NavLink>
-          <NavLink to="/Projects">Projects</NavLink>
-          <NavLink to="/Education">Education</NavLink>
+          <NavLink to="/about" className="cursor-pointer hover:scale-117 0.2s transition 0.2s ease-out hover:text-primary">About</NavLink>
+          <NavLink to="/skills" className="cursor-pointer hover:scale-117 0.2s transition 0.2s ease-out hover:text-primary">Skills</NavLink>
+          <NavLink to="/Projects" className="cursor-pointer hover:scale-117 0.2s transition 0.2s ease-out hover:text-primary">Projects</NavLink>
+          <NavLink to="/Education" className="cursor-pointer hover:scale-117 0.2s transition 0.2s ease-out hover:text-primary">Education</NavLink>
         </ul>
         <div className="nav-icons flex items-center md:gap-[1.7rem] 2xl:gap-[3rem] md:text-[2rem] lg:text-[2.5rem] text-[2.5rem]">
-          <FiGithub />
-          <FaLinkedinIn />
-          <GrInstagram />
+          <a href="https://github.com/bitEngineer09" target="_blank"><FiGithub className="hover:scale-117 0.2s transition 0.2s ease-out hover:text-primary" /></a>
+          <a href="https://www.linkedin.com/in/bitengineer09" target="_blank"><FaLinkedinIn className="hover:scale-117 0.2s transition 0.2s ease-out hover:text-primary" /></a>
+          <a href="https://www.instagram.com/yadav._51/" target="_blank"><GrInstagram className="hover:scale-117 0.2s transition 0.2s ease-out hover:text-primary" /></a>
           <GrMenu onClick={toggleMenu} className="block md:hidden" />
         </div>
       </nav>
