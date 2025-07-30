@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../components/card";
+import Card from "../components/Card";
 
 const Skills = () => {
   return (
@@ -25,7 +25,7 @@ const Skills = () => {
           Showcasing my expertise in crafting intuitive, responsive, and
           visually engaging web experiences.
         </p>
-        <div className="LanguagesCard ">
+        <div className="LanguagesCard">
           <Card />
         </div>
       </div>

@@ -33,9 +33,10 @@ const Projects = () => {
           Here are my some of the projects that I created in this journey
         </p>
         <div className="
+                  projectsCards
                   px-[2rem] xs:px-0 sm:px-[1rem] md:px-[3rem]
                   grid grid-flow-col auto-cols-[27rem] xs:auto-cols-[30rem] md:grid-flow-row overflow-x-auto  md:grid-cols-2 lg:grid-cols-3
-                  xs:pt-[3.5rem] sm:pt-[4rem] pt-[4rem] lg:pt-[5rem] xl:pt-[6rem] 2xl:pt-[4rem]
+                  pt-[7rem] xs:pt-[3.5rem] sm:pt-[4rem] pt-[4rem] lg:pt-[5rem] xl:pt-[6rem] 2xl:pt-[4rem]
                   gap-[3rem] xs:gap-[3rem] sm:gap-[4rem] md:gap-[3rem] lg:gap-[1rem] xl:gap-[2rem] 2xl:gap-[6rem]
                   lg:gap-y-[4rem] xl:gap-y-[5rem] 2xl:gap-y-[6rem]
                   ">

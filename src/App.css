@@ -139,6 +139,13 @@ html,body {
 }
 
 
+.projectsCards::-webkit-scrollbar {
+    display: none;
+}
+
+.containerSkillsCardParent::-webkit-scrollbar {
+    display: none;
+}
 
 
 @media (max-width: 479px) {
@@ -172,7 +179,7 @@ html,body {
     }
 
     .nav-link.active {
-        top: 10.2%;
+        top: 12%;
         right:0;
         transition: all 0.1s ease-in-out;
     }

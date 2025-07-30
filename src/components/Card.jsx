@@ -6,19 +6,20 @@ const Card = () => {
   return (
     <StyledWrapper>
       <div className="
+                containerSkillsCardParent
                 grid
                 grid-flow-col md:grid-flow-row
                 overflow-x-auto
                 md:grid-cols-3 lg:grid-cols-4 
                 gap-x-[4rem] md:gap-y-[3rem] xl:gap-y-[4rem] 2xl:gap-y-[5rem]
-                mt-[4rem] xl:mt-[5rem] 2xl:mt-[6rem]
+                mt-[7rem] xl:mt-[5rem] 2xl:mt-[6rem]
                 place-items-center
                 ">
         {skills.map((skill) => {
           return (
             <div key={skill.id} className=" container containerSkillsCard noselect 
-                                        w-[16rem] sm:w-[18rem] md:w-[20rem] xl:w-[22rem] 2xl:w-[26rem]
-                                        h-[22rem] sm:h-[25rem] lg:h-[27rem] xl:h-[28rem] 2xl:h-[34rem]
+                                        w-[17rem] sm:w-[18rem] md:w-[20rem] xl:w-[22rem] 2xl:w-[26rem]
+                                        h-[24rem] sm:h-[25rem] lg:h-[27rem] xl:h-[28rem] 2xl:h-[34rem]
                                         ">
               <div className="canvas">
                 <div className="tracker tr-2"></div>
