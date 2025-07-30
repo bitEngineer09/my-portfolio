@@ -8,7 +8,7 @@ const AppLayout = () => {
   return (
     <div>
     
-      <div className="mt-10">
+      <div className="xl:mt-8 2xl:mt-10">
         <NavBar />
       </div>
       <Outlet />
